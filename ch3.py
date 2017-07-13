@@ -75,4 +75,4 @@ print ( (5*2)-(3+4) / 2 ) # readable
 # Write a program that displays the number of seconds in a week on one line.
 d = 7
 s = 86400
-print(d*s)
+print( d*s )
