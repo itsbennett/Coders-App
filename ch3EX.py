@@ -1,15 +1,19 @@
 # ** Chapter 3 Exercises **
 # Exercise 3.1
-p = 24.95
-bs = .6
-sh = 3
-sha = .75
-copies = 60
 
-inital = (p*bs)+p+sh
-total = (inital-sh+sha)*copies
-print(total)
+print( 60 * (0.6 * 24.95 + 0.75) + (3 - 0.75) )
 
-# TODO: not be stupid
-# correct answer
-# print (60 * (0.6 * 24.95 + 0.75) + (3 - 0.75))
+# Exercise 3.2
+print( "A message.")
+
+# Exercise 3.3
+# print( 3/0 ) will cause divide by zero error
+
+# Exercise 3.4
+print((2*3)/4 + (5-6/7)*8 )
+print((12*13)/14 + (15-16)/17*18 )
+
+# Exercise 3.5
+clock = 14
+alarm = 535
+print( str( (14 + 535) % 24 ) + ".00")
