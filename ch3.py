@@ -76,3 +76,31 @@ print ( (5*2)-(3+4) / 2 ) # readable
 d = 7
 s = 86400
 print( d*s )
+
+# 3.3.3 - Sting Expressions
+# You can use the addition operator to link two strings and you can use the multiplication operator to create repetition of strings.
+
+print( "hello" + "world")
+print( 3*"Hello " )
+print( "goodbye " * 3)
+
+# 3.3.4 - Type casting
+# The breakdown of a statement is function("parameters")
+# print("Hello world") - print is the function, "hello world" is the parameters
+
+# **Three main type of casting functions**
+# int() - returns value as interger, rounds down if necess
+# float() - return value is float
+# str() - returns value as string
+
+print( 15/4 )
+print( int(15/4) ) # the int casting function rounds down
+
+print( 15+4 )
+print( float(15+4) ) # adds floating decimal
+
+# This allows the interger to be added to the parameter because it is converted into a string.
+print("I own " + str(15) + " apples.")
+
+# 3.4 - Style
+# BE CONSISTENT.
