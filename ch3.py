@@ -8,11 +8,11 @@
 5+7
 
 # only this produces results for using Python
-print( 5+7 )
+print(5+7)
 
-print( "Hello world!" )
-print( "I", "own", "two", "apples", "and", "one", "banana" )
-print( "I", "own", 2, "apples", "and", 1, "banana" )
+print("Hello world!")
+print("I", "own", "two", "apples", "and", "one", "banana")
+print("I", "own", 2, "apples", "and", 1, "banana")
 
 # 3.2 - Data Types
 # STRINGS, INTERGERS, FLOATS
@@ -21,18 +21,18 @@ print( "I", "own", 2, "apples", "and", 1, "banana" )
 # In strings " " is equal to ' ' (single or double quotes).
 # Can\'t prevents the string from prematurely ending with the \
 # \\\ actually prints the backslash if need be.
-print( 'I can\'t stand it' )
-print( 'I can\\\'t stand it' )
+print('I can\'t stand it')
+print('I can\\\'t stand it')
 
 # 3.2.2 - INTERGERS
 # Intergers by def are whole numbers. Can be positive, negative or zero.
 # Number values can be written in different ways, an example being:
-print( 1 )
-print( +1 )
+print(1)
+print(+1)
 
 # The reason the following doesn't work is because each number ie being treated individual after the comma.
 # Larger numbers must be written without commas, obviously.
-print( 1, 000, 000, 000 )
+print(1, 000, 000, 000)
 
 # 3.2.3 - FLOATS
 # Floating point numbers are numbers with decimals.
@@ -64,25 +64,25 @@ print( 15%4 ) # modulo %
 
 # 3.3.2 - More Complex Calculations
 # Python allows PEMDAS for doing equations.
-print ( 5*2-3+4/2 )
+print (5*2-3+4/2)
 
 # The end result is a float because of the division operation. This automatically turns it into a floating interger.
 
 # This is an example of how spacing properly can drastically help readability.
-print ( (5*2)-(3+4) / 2 ) # readable
+print ((5*2)-(3+4) / 2) # readable
 
 #  * EXERCISE *
 # Write a program that displays the number of seconds in a week on one line.
 d = 7
 s = 86400
-print( d*s )
+print(d*s)
 
 # 3.3.3 - Sting Expressions
 # You can use the addition operator to link two strings and you can use the multiplication operator to create repetition of strings.
 
-print( "hello" + "world")
-print( 3*"Hello " )
-print( "goodbye " * 3)
+print("hello" + "world")
+print(3 * "Hello ")
+print("goodbye " * 3)
 
 # 3.3.4 - Type casting
 # The breakdown of a statement is function("parameters")
@@ -93,11 +93,11 @@ print( "goodbye " * 3)
 # float() - return value is float
 # str() - returns value as string
 
-print( 15/4 )
-print( int(15/4) ) # the int casting function rounds down
+print(15/4)
+print(int(15/4)) # the int casting function rounds down
 
 print( 15+4 )
-print( float(15+4) ) # adds floating decimal
+print(float(15+4)) # adds floating decimal
 
 # This allows the interger to be added to the parameter because it is converted into a string.
 print("I own " + str(15) + " apples.")
