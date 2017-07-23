@@ -40,7 +40,7 @@ x = x+3
 print(x)
 
 # A variable MUST be created before used. Running this will result in an error:
-print(days_in_a_year)
+# print(days_in_a_year)
 days_in_a_year=365
 # NameError: name 'days_in_a_year' is not defined
 
@@ -83,3 +83,52 @@ classif1cat10n = 1 # legal
 _classification = 1 # legal
 # class = 1 # illegal, reserved keyword
 Class = 1 # legal, but not good as it uses a keyword as a name
+
+# 4.2.3 - Constants
+# Constants are values that are assigned to a variable that cannot be changed.
+# A constant is typically written in ALL CAPS.
+
+# Without constants
+total = 24.95
+final_total = int(100*total*1.15 / 100)
+print(final_total)
+
+# With Constants
+SERVICE_CHARGE = 1.15
+CENTS = 100
+total = 24.95
+final_total = int(CENTS*total*SERVICE_CHARGE) / CENTS
+print(final_total)
+
+# 4.3 - Debugging Variables
+
+nr1 = 5
+nr2 = 4
+nr3 = 5
+print(nr3 / (nr1 % nr2) )
+nr1 = nr1+1
+print(nr3 / (nr1 % nr2) )
+nr1 = nr1+1
+print(nr3 / (nr1 % nr2) )
+
+# 4.4 - Soft typing
+# When assigning a variable from the start it is referred to as "hard typing".
+# If a variable is able to be changed after it is assigned, this is called "soft typing". For instance, a variable 'x' may start as = 1 but later in the code could be changed to another interger like 3, which would overwrite it's original variable value.
+
+# Checking value type:
+a = 3 # Interger
+print( type(a) )
+a = 3.0 # Float
+print( type(a) )
+a = "3.0" # String
+print( type(a) )
+
+# When types are added together they retain their value type.
+a = 1
+b = 4
+c = "1"
+d = "4"
+print(a+b)
+print(c+d)
+
+# Different value types are unable to be added together, they MUST be the same type.
