@@ -17,7 +17,6 @@ cents_dollar = 100
 cents_quarter = 25
 cents_dime = 10
 cents_nickel = 5
-# testing this out
 amount = 1142 # to demonstrate at least one of each coin
 cents = amount
 dollars = int( cents / cents_dollar )
@@ -45,3 +44,5 @@ a += b
 b = a - b
 a -= b
 print("a =", a, "and b =", b)
+
+# new line for testing
