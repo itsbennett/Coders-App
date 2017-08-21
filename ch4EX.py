@@ -17,7 +17,7 @@ cents_dollar = 100
 cents_quarter = 25
 cents_dime = 10
 cents_nickel = 5
-
+# test
 amount = 1142 # to demonstrate at least one of each coin
 cents = amount
 dollars = int( cents / cents_dollar )
