@@ -131,19 +131,4 @@ d = "4"
 print(a+b)
 print(c+d)
 
-
-
-
-
-
-
-
-# test
-
-
-
-
-
-
-# okay test
 # Different value types are unable to be added together, they MUST be the same type.
